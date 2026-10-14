@@ -24,8 +24,7 @@ export default function Footer() {
         </nav>
       </div>
       <div className="wrap footer__legal">
-        <p>© {new Date().getFullYear()} {SITE.dealer}. Đây là website của đại lý, không phải website chính thức của hãng BYD (byd.com).</p>
-        <p>Hình ảnh chỉ mang tính minh họa. Giá, phiên bản, thông số và chương trình ưu đãi có thể thay đổi — vui lòng liên hệ đại lý để được xác nhận.</p>
+        <p>© {new Date().getFullYear()} {SITE.dealer}</p>
       </div>
     </footer>
   );
